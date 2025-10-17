@@ -12,6 +12,7 @@ cursor = conexion.cursor()
 cursor.execute("SELEC * FROM usuarios")
 registros = cursor.fetchall()
 
+print(hola)
 for fila in registros:
     print(fila)
 
