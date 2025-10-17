@@ -1,6 +1,6 @@
 import psycopg2
 conexion = psycopg2.connect(
-    hots = "localhots",
+    hots = "localhost",
     port = "5432",
     database = "credenciales",
     user = "Admin",
