@@ -5,7 +5,7 @@ nombre VARCHAR(100) NOT NULL,
 correo VARCHAR(255) UNIQUE,
 telefono VARCHAR(15),
 fecha_nacimiento DATE
-);
+-);
 -- Crear la tabla para almacenar usuarios y contraseñas
 CREATE TABLE credenciales (
 id_credencial SERIAL PRIMARY KEY,
